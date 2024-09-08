@@ -90,3 +90,24 @@ button:active {
     cursor: pointer;
   }
 }
+@media screen and (max-width: 400px) {
+  #body {
+    height: auto;
+  }
+  h1 {
+    font-size: 25px;
+    line-height: 50px;
+  }
+  #calculator {
+    font-family: comic-sans-serif;
+    background-color: #efcfe3;
+    border-radius: 30px;
+    max-width: 500px;
+    overflow: hidden;
+  }
+  button {
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+  }
+}
